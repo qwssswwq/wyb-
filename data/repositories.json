@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-14",
+  "purpose": "Machine-readable routing index for Codex GitHub research",
+  "usage_rules": [
+    "Select only repositories relevant to the current task",
+    "Prefer upstream documentation, source code and tests",
+    "Do not bulk-copy third-party code",
+    "Check license, maintenance status, compatibility and security before reuse",
+    "Never upload secrets, customer scripts or private production data"
+  ],
+  "repositories": [
+    {
+      "repository": "sindresorhus/awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "categories": [
+        "index",
+        "general"
+      ],
+      "use_cases": [
+        "discover curated technology lists"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "categories": [
+        "learning",
+        "books"
+      ],
+      "use_cases": [
+        "find free programming learning resources"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "ossu/computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "categories": [
+        "learning",
+        "computer-science"
+      ],
+      "use_cases": [
+        "build a structured CS curriculum"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "categories": [
+        "learning",
+        "roadmap"
+      ],
+      "use_cases": [
+        "plan developer learning paths"
+      ],
+      "priority": "medium",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "categories": [
+        "learning",
+        "projects"
+      ],
+      "use_cases": [
+        "learn by building projects"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "categories": [
+        "learning",
+        "algorithms"
+      ],
+      "use_cases": [
+        "study data structures and interviews"
+      ],
+      "priority": "medium",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "categories": [
+        "architecture",
+        "system-design"
+      ],
+      "use_cases": [
+        "compare scalable system designs"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "categories": [
+        "python",
+        "index"
+      ],
+      "use_cases": [
+        "discover Python libraries and tools"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "categories": [
+        "api",
+        "index"
+      ],
+      "use_cases": [
+        "discover public APIs"
+      ],
+      "priority": "medium",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "trimstray/the-book-of-secret-knowledge",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "categories": [
+        "operations",
+        "security",
+        "reference"
+      ],
+      "use_cases": [
+        "research command line and operations topics"
+      ],
+      "priority": "medium",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "github/gitignore",
+      "url": "https://github.com/github/gitignore",
+      "categories": [
+        "git",
+        "security",
+        "templates"
+      ],
+      "use_cases": [
+        "build safe gitignore rules"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "categories": [
+        "python",
+        "runtime"
+      ],
+      "use_cases": [
+        "inspect Python standard library behavior and tests"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "pyinstaller/pyinstaller",
+      "url": "https://github.com/pyinstaller/pyinstaller",
+      "categories": [
+        "python",
+        "windows",
+        "packaging"
+      ],
+      "use_cases": [
+        "build and debug Windows executables"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "pytest-dev/pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "categories": [
+        "python",
+        "testing"
+      ],
+      "use_cases": [
+        "design automated and regression tests"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "encode/httpx",
+      "url": "https://github.com/encode/httpx",
+      "categories": [
+        "python",
+        "http",
+        "networking"
+      ],
+      "use_cases": [
+        "design clients, pooling and timeout policies"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "pydantic/pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "categories": [
+        "python",
+        "validation"
+      ],
+      "use_cases": [
+        "validate AI JSON, configs and plugin manifests"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "jd/tenacity",
+      "url": "https://github.com/jd/tenacity",
+      "categories": [
+        "python",
+        "retry",
+        "resilience"
+      ],
+      "use_cases": [
+        "design retry, backoff and stop policies"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "TomSchimansky/CustomTkinter",
+      "url": "https://github.com/TomSchimansky/CustomTkinter",
+      "categories": [
+        "python",
+        "desktop-ui"
+      ],
+      "use_cases": [
+        "research modern Tkinter UI patterns"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "python-openxml/python-docx",
+      "url": "https://github.com/python-openxml/python-docx",
+      "categories": [
+        "python",
+        "documents",
+        "docx"
+      ],
+      "use_cases": [
+        "generate and style Word documents"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "categories": [
+        "python",
+        "plugins",
+        "mcp"
+      ],
+      "use_cases": [
+        "design standardized tool and plugin interfaces"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "categories": [
+        "ai",
+        "multi-model",
+        "routing"
+      ],
+      "use_cases": [
+        "research model routing, fallback and observability"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "categories": [
+        "ai",
+        "prompts",
+        "evaluation"
+      ],
+      "use_cases": [
+        "build prompt and model regression evaluations"
+      ],
+      "priority": "critical",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "categories": [
+        "ai",
+        "workflow",
+        "agents"
+      ],
+      "use_cases": [
+        "study LLM workflow architecture without default adoption"
+      ],
+      "priority": "medium",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "QwenLM/Qwen3",
+      "url": "https://github.com/QwenLM/Qwen3",
+      "categories": [
+        "ai",
+        "qwen",
+        "models"
+      ],
+      "use_cases": [
+        "research Qwen capabilities and model behavior"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    },
+    {
+      "repository": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "categories": [
+        "ai",
+        "api",
+        "examples"
+      ],
+      "use_cases": [
+        "study structured outputs, tools and evaluation patterns"
+      ],
+      "priority": "high",
+      "reuse_policy": "read upstream README and LICENSE before copying or adapting code"
+    }
+  ]
+}
